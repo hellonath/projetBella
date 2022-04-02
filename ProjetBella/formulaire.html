@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="formulaire.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <section class="container1">
+        <header>
+            <img src="Images/LogoPizza.png" alt="LogoBella" class="logo">             
+            <div class="navigation">
+                <input type="checkbox" class="navigationCheckbox" id="navi">
+                <label for="navi" class="navigationBtn">
+                    <span class="navigationIcon">&nbsp;</span>
+                </label>
+                <div class="navigationBg">&nbsp;</div>
+                <nav class="nav">
+                    <ul class="navigationListe">                        
+                        <li class="navigationItem">
+                            <a href="#" class="liens">Accueil</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="accueil.html#pizza" class="liens">Nos pizzas</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="accueil.html#burger" class="liens">Nos burgers</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="accueil.html#salad" class="liens">Nos salades</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="contact.html" class="liens">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="ecritureban1">
+            Food app
+		    <p>Chez Bella</p>
+		    <p>chaque désir s'additionne.</p>
+        </div>
+    </section>
+    <main class="container">
+        <!-- INFORMATION -->
+        <div class="information">
+            <h2>Vos informations</h2>
+            <form>
+                <div class="groupede2">
+                    <label for="fname">Nom</label>
+                    <input type="text" id="fname" name="fname" placeholder="Nom">
+                    <label for="lname">Prénom</label>
+                    <input type="text" id="lname" name="lname" placeholder="Prénom">
+                </div>
+                <div class="groupede3">
+                    <label for="num">Téléphone</label>
+                    <input type="text" id="num" name="num" placeholder="Téléphone">
+                    <label for="mail">Email</label>
+                    <input type="text" id="mail" name="mail" placeholder="Email">
+                </div>
+            </form>
+        </div><!-- FERMETURE INFORMATION -->            
+        <!--COMMANDE -->
+        <div class="commande">
+            <h2>Votre commande</h2>
+            <form class="choix">
+                <label for="choice">Choix</label>
+                <select id="choice" name="choice">
+                    <option value="pizza">Pizza</option>
+                    <option value="burger">Burger</option>
+                    <option value="salad">Salade</option>
+                </select>
+            </form>
+        </div><!-- FERMETURE COMMANDE -->
+            <!-- SUPPLEMENTS -->
+        <div class="supplement">
+            <h3 class="supplement">Suppléments</h3>
+            <form>
+                <div class="groupeA">
+                    <label for="ingredient1">Ingrédient 1</label>
+                    <select id="ingredient1" name="ingredient1">
+                        <option value="fromage">Fromage</option>
+                        <option value="tomate">Tomate</option>
+                        <option value="poulet">Poulet</option>
+                        <option value="oignon">Oignon</option>
+                        <option value="cornichon">Cornichon</option>                
+                    </select>
+                    <label for="qte1">Qantité</label>
+                    <select id="qte1" name="qte1">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </div>
+                <div class="groupeB">
+                    <label for="ingredient2">Ingrédient 2</label>
+                    <select id="ingredient2" name="ingredient2">
+                        <option value="fromage">Fromage</option>
+                        <option value="tomate">Tomate</option>
+                        <option value="poulet">Poulet</option>
+                        <option value="oignon">Oignon</option>
+                        <option value="cornichon">Cornichon</option>                
+                    </select>
+                    <label for="qte2">Qantité</label>
+                    <select id="qte2" name="qte2">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </div>
+                <div class="groupeC">
+                    <label for="ingredient3">Ingrédient 3</label>
+                    <select id="ingredient3" name="ingredient3">
+                        <option value="fromage">Fromage</option>
+                        <option value="tomate">Tomate</option>
+                        <option value="poulet">Poulet</option>
+                        <option value="oignon">Oignon</option>
+                        <option value="cornichon">Cornichon</option>                
+                    </select>
+                    <label for="qte3">Qantité</label>
+                    <select id="qte3" name="qte3">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </div>
+                <div class="groupeD">
+                    <label for="ingredient4">Ingrédient 4</label>
+                    <select id="ingredient4" name="ingredient4">
+                        <option value="fromage">Fromage</option>
+                        <option value="tomate">Tomate</option>
+                        <option value="poulet">Poulet</option>
+                        <option value="oignon">Oignon</option>
+                        <option value="cornichon">Cornichon</option>                
+                    </select>
+                    <label for="qte4">Qantité</label>
+                    <select id="qte4" name="qte4">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </div>                
+            </form>
+        </div><!-- FERMETURE SUPPLEMENT -->
+        <!-- OPTION FRITES --> 
+        <h3 class="titrefrite">Option frites</h3>
+        <div class="frite">
+            <div class="ac">
+                <input type="radio" name="radio">
+                <label>Aves frites</label>
+            </div>
+            <div class="ss">
+                <input type="radio" name="radio">
+                <label>Sans frites</label>
+            </div>
+        </div><!-- FERMETURE OPTION FRITES --> 
+        <!--BOISSONS-->
+        <div class="groupeE">
+            <div class="boisson">
+                <h3>Boissons</h3>
+                <form class="coca">
+                    <input type="checkbox" id="boisson1" name="boisson1" value="coca">
+                    <label for="boisson1">Coca</label>                    
+                    <select id="qte5" name="qte5">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </form>
+                <form class="coca">
+                    <input type="checkbox" id="boisson2" name="boisson2" value="fanta">
+                    <label for="boisson2">Fanta</label>
+                    <select id="qte6" name="qte6">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </form>
+                <form class="coca">
+                    <input type="checkbox" id="boisson3" name="boisson3" value="eau">
+                    <label for="boisson3">Eau</label>
+                    <select id="qte7" name="qte7">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </form>
+            </div><!-- FERMETURE BOISSONS -->        
+            <!--DESSERTS-->
+            <div class="dessert">
+                <h3>Desserts</h3>
+                <form class="coca">
+                    <input type="checkbox" id="dessert1" name="dessert1" value="tiramisu">
+                    <label for="dessert1">Tiramisu</label>
+                    <select id="qte8" name="qte8">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </form>
+                <form class="coca">
+                    <input type="checkbox" id="dessert2" name="dessert2" value="chessecake">
+                    <label for="dessert2">Chesse-cake</label>
+                    <select id="qte9" name="qte9">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </form>
+                <form class="coca">
+                    <input type="checkbox" id="dessert3" name="dessert3" value="tarte">
+                    <label for="dessert3">Tarte aux fraises</label>
+                    <select id="qte10" name="qte10">
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>                
+                    </select>
+                </form>
+            </div><!-- FERMETURE DESSERTS -->
+        </div><!-- FERMETURE GROUPE E -->
+        <!-- ADRESSE DE LIVRAISON -->
+        <div class="adlivraison">
+            <h2>Votre adresse de livraison</h2>               
+            <form>
+                <div class="groupeF">
+                    <label for="fname2">Nom</label>
+                    <input type="text" id="fname2" name="fname2" placeholder="Nom">
+                    <label for="lname2">Prénom</label>
+                    <input type="text" id="lname2" name="lname2" placeholder="Prénom">
+                </div>
+                <div class="groupeF">
+                    <label for="num2">Mobile</label>
+                    <input class="mobile" type="text" id="num2" name="num2" placeholder="Mobile">
+                    <label for="mail2">Email</label>
+                    <input type="text" id="mail2" name="mail2" placeholder="Email">
+                </div>
+                <div class="groupeF">
+                    <label for="ad">Adresse</label>
+                    <input type="text" id="ad" name="ad" placeholder="Adresse">
+                    <label for="postal">Code postal</label>
+                    <input type="text" id="postal" name="postal" placeholder="Code postal">
+                </div>
+                <div class="groupeF">
+                    <label for="ville">Ville</label>
+                    <input type="text" id="ville" name="ville" placeholder="Ville">
+                    <label for="pays">Pays</label>
+                    <input type="text" id="pays" name="pays" placeholder="Pays">                
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- BOUTON ENVOYER -->
+    <a href="accueil.html" class="button">Envoyer</a>
+    <!-- BOUTON ENVOYER -->    
+    <footer>
+        <div class="logolien">
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>            
+            <a href="https://fr-fr.facebook.com/"><i class="fa fa-facebook"></i></a>  
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>  
+        </div>
+    </footer>
+    <p class="footer">Copywright 2020 BienManger.com</p>    
+</body>
+</html>

@@ -1,0 +1,522 @@
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;       
+    }
+
+    /* LOGO */
+    header img {
+        width: 100%;
+        height: 80px;
+        width: 166px;
+        left: 0px;
+        top: 9px;
+        object-fit: cover;
+    }
+
+    /* 1e BANNIERE */
+    .ecritureban1 {
+        background-image: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("Images/Fond1.jpg");
+        object-fit: cover;
+        background-size: cover;
+        height: 200px;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        padding-top: 15px;
+    }
+
+    .ecritureban1 p {
+        font-family: Poppins;
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    /* FORM */
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;        
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+
+    /* BANNIERE AVEC 3 LOGO LIENS */
+    .logolien {
+        height: 106px;
+        width: 100%;
+        background-color: #FA4A0C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .fa {
+        font-size: 35px;
+        padding: 0 30px;
+        color:white;
+    }
+
+    p {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    /* BOUTON UPLOAD */
+    a.lienonglet:link {
+        background-color: #FA4A0C;
+        border-radius: 10px;
+        color: white;
+        border: 2px solid #FA4A0C;
+        padding: 10px 20px;
+        margin: 30px 30px 30px 170px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        width: 25%;
+        box-sizing: border-box;            
+    }
+
+    a.lienonglet:hover {
+        background-color: #a23209;
+    }
+
+    .pcontact {
+        font-size: 18px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 350px;
+        border: 1px solid black;
+    }
+
+    a.button {
+        box-sizing: border-box;
+        cursor: pointer;
+        float: right;
+        background-color: #FA4A0C;
+        border-radius: 10px;
+        color: white;       
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        width: 20%;
+        margin: 7% 39%;
+    }
+
+    a.button:hover {
+        background-color: #a23209;
+    }
+
+    .container {
+        border-radius: 5px;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .captcha {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+    }
+
+    .captcha img {
+        width: 300px;
+        margin: 50px 80px;
+    }
+}
+
+    @media screen and (min-width: 600px) and (max-width: 900px) {       
+
+        body{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;       
+    }
+
+        /* LOGO */
+        header img {
+            width: 100%;
+            height: 80px;
+            width: 166px;
+            left: 0px;
+            top: 9px;
+            object-fit: cover;
+        }
+
+        /* 1e BANNIERE */
+        .ecritureban1 {
+            background-image: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("Images/Fond1.jpg");
+            object-fit: cover;
+            background-size: cover;
+            height: 200px;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+            color: white;
+            padding-top: 15px;
+        }
+
+        .ecritureban1 p {
+            font-family: Poppins;
+            font-size: 18px;
+            line-height: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        /* FORM */
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;        
+        }
+
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        /* BANNIERE AVEC 3 LOGO LIENS */
+        .logolien {
+            height: 106px;
+            width: 100%;
+            background-color: #FA4A0C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .fa {
+            font-size: 35px;
+            padding: 0 30px;
+            color:white;
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        /* BOUTON UPLOAD */
+        a.lienonglet:link {
+            background-color: #FA4A0C;
+            border-radius: 10px;
+            color: white;
+            border: 2px solid #FA4A0C;
+            padding: 10px 20px;
+            margin: 30px 30px 30px 250px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            width: 25%;
+            box-sizing: border-box;            
+        }
+
+        a.lienonglet:hover {
+            background-color: #a23209;
+        }
+
+        .pcontact {
+            font-size: 18px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: 1px solid black;
+        }
+
+        a.button {
+            box-sizing: border-box;
+            cursor: pointer;
+            float: right;
+            background-color: #FA4A0C;
+            border-radius: 10px;
+            color: white;       
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            width: 20%;
+            margin: 7% 39%;
+        }
+
+        a.button:hover {
+            background-color: #a23209;
+        }
+
+        .container {
+            border-radius: 5px;
+            padding: 10px 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .captcha {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .captcha img {
+            width: 300px;
+            margin: 50px 200px;;
+        }
+
+        .groupe {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .groupede2 input, .groupede3 input, .groupede4 input {
+            width: 40%;
+        }
+
+        .groupede2, .groupede3, .groupede4 {
+            width: 100%;
+            height: 100%;            
+            display: flex;
+            margin: 20px 20px;
+        }
+
+        .formulaire {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .cadremessage {
+            width: 80%;
+        }
+
+        iframe {
+            margin-left: 40px;
+        }
+    }
+
+         @media screen and (min-width: 900px) {
+            
+            body {
+            width: 100%;
+            height: 100%;
+            display:flex;
+            flex-direction: column;       
+            }
+
+            /* LOGO */
+            header img {
+                width: 100%;
+                height: 80px;
+                width: 166px;
+                left: 0px;
+                top: 9px;
+                object-fit: cover;
+            }
+
+            /* 1e BANNIERE */
+            .ecritureban1 {
+                background-image: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("Images/Fond1.jpg");
+                object-fit: cover;
+                background-size: cover;
+                height: 200px;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: 700;
+                text-align: center;
+                color: white;
+                padding-top: 15px;
+            }
+
+            .ecritureban1 p {
+                font-family: Poppins;
+                font-size: 18px;
+                line-height: 15px;
+            }
+
+            h2 {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            /* FORM */
+            * {
+                box-sizing: border-box;
+            }
+
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;        
+            }
+
+            label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+            }
+
+            /* BANNIERE AVEC 3 LOGO LIENS */
+            .logolien {
+                height: 106px;
+                width: 100%;
+                background-color: #FA4A0C;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }
+
+            .fa {
+                font-size: 35px;
+                padding: 0 30px;
+                color:white;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            /* BOUTON UPLOAD */
+            a.lienonglet:link {
+                background-color: #FA4A0C;
+                border-radius: 10px;
+                color: white;
+                border: 2px solid #FA4A0C;
+                padding: 10px 20px;
+                margin: 40px 30px 30px 20px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                width: 10%;
+                box-sizing: border-box;          
+            }
+
+            a.lienonglet:hover {
+                background-color: #a23209;
+            }
+
+            .pcontact {
+                font-size: 18px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 350px;
+                border: 1px solid black;
+                margin-top: 20px;
+            }
+
+            a.button {
+                box-sizing: border-box;
+                cursor: pointer;
+                float: right;
+                background-color: #FA4A0C;
+                border-radius: 10px;
+                color: white;       
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 12px;
+                width: 10%;
+                margin: 7% 60%;
+            }
+
+            a.button:hover {
+                background-color: #a23209;
+            }
+
+            .container {
+                border-radius: 5px;
+                padding: 10px 10px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .captcha {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .captcha img {
+                width: 300px;
+                margin: 50px 20px;;
+            }
+
+            .groupe {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .groupede2 input, .groupede3 input, .groupede4 input {
+                width: 40%;
+            }
+
+            .groupede2, .groupede3, .groupede4 {
+                width: 100%;
+                height: 100%;            
+                display: flex;
+                margin: 20px 20px;
+            }
+
+            .formulaire {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+            }
+
+            
+            
+        }

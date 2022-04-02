@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <section class="container1">
+        <header>
+            <img src="Images/LogoPizza.png" alt="LogoBella" class="logo">             
+            <div class="navigation">
+                <input type="checkbox" class="navigationCheckbox" id="navi">
+                <label for="navi" class="navigationBtn">
+                    <span class="navigationIcon">&nbsp;</span>
+                </label>
+                <div class="navigationBg">&nbsp;</div>
+                <nav class="nav">
+                    <ul class="navigationListe">                        
+                        <li class="navigationItem">
+                            <a href="accueil.html" class="liens">Accueil</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="accueil.html#pizza" class="liens">Nos pizzas</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="accueil.html#burger" class="liens">Nos burgers</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="accueil.html#salad" class="liens">Nos salades</a>
+                        </li>
+                        <li class="navigationItem">
+                            <a href="#" class="liens">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="ecritureban1">
+            Food app
+		    <p>Chez Bella</p>
+		    <p>chaque désir s'additionne.</p>
+        </div>
+    </section>
+    <main class="container">
+        <!-- INFORMATION CONTACT -->
+        <div class="contact">
+            <h2>Contactez nous</h2>
+            <form class="groupe">
+                <div class="groupede2">
+                    <label for="fname">Nom</label>
+                    <input type="text" id="fname" name="fname" placeholder="Nom">
+                    <label for="lname">Prénom</label>
+                    <input type="text" id="lname" name="lname" placeholder="Prénom">
+                </div>
+                <div class="groupede3">
+                    <label for="num">Téléphone</label>
+                    <input type="text" id="num" name="num" placeholder="Téléphone">
+                    <label for="mail">Email</label>
+                    <input type="text" id="mail" name="mail" placeholder="Email">
+                </div>
+                <div class="groupede4">
+                    <label for="soc">Société</label>
+                    <input type="text" id="soc" name="soc" placeholder="Société">
+                    <label for="fonction">Fonction</label>
+                    <input type="text" id="fonction" name="fonction" placeholder="Cuisinier">
+                </div>
+            </form>
+        </div><!-- FERMETURE INFORMATION CONTACT -->
+        <div class="captcha">     
+            <a class="lienonglet" href="accueil.html" target="_blank">UPLOAD</a>
+            <img src="Images/captcha.PNG" alt="Captcha">
+            <p class="pcontact">Pour toutes demandes de remboursement ou autre, veuillez remplir le formulaire ci-dessous</p>
+        </div>
+        <div class="formulaire">
+            <div class="cadremessage">
+                <form class="objet">
+                    <label for="objet">Objet</label>
+                    <select id="objet" name="objet">
+                        <option value="rbt">Remboursement1</option>
+                        <option value="rbt">Remboursement2</option>
+                        <option value="rbt">Remboursement3</option>             
+                    </select>
+                </form>            
+                <form class="message">
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Ecrivez votre message ici..." style="height:200px"></textarea>
+                </form>
+            </div>
+            <!-- Map / Plan d'accès -->            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3771.9693360247816!2d2.2713776316519847!3d48.78292301223099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1safpa!5e0!3m2!1sfr!2sfr!4v1648248604168!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- BOUTON ENVOYER -->
+        <a href="accueil.html" class="button">Envoyer</a>
+    </main>
+    <footer>
+        <div class="logolien">
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>            
+            <a href="https://fr-fr.facebook.com/"><i class="fa fa-facebook"></i></a>  
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>  
+        </div>
+    </footer>
+    <p class="footer">Copywright 2020 BienManger.com</p>
+</body>
+</html>
